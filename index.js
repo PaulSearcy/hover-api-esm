@@ -145,6 +145,8 @@ export const deleteRecords = async (domain, dnsRecords) =>
     .then(data => data.domains.dns_records)
     .catch(console.error)
 
+export { sleep }
+
 export default {
     login,
     setHoverApiUrl,
