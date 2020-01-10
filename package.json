@@ -1,0 +1,32 @@
+{
+  "name": "hover-api-esm",
+  "version": "1.0.0",
+  "description": "Hover DNS API Client JS ESM",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaulSearcy/hover-api-esm.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/" 
+  },
+  "keywords": [
+    "hover",
+    "hover.com",
+    "dns",
+    "api"
+  ],
+  "author": "Paul Searcy <tridon777@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PaulSearcy/hover-api-esm/issues"
+  },
+  "homepage": "https://github.com/PaulSearcy/hover-api-esm#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
+}
