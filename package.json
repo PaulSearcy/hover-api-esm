@@ -1,6 +1,6 @@
 {
   "name": "hover-api-esm",
-  "version": "1.0.02",
+  "version": "1.0.2",
   "description": "Hover DNS API Client JS ESM",
   "main": "index.js",
   "type": "module",
