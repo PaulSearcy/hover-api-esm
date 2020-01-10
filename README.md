@@ -10,3 +10,13 @@ Inspiration drawn from:
 
 This is using native [ESM modules](https://nodejs.org/api/esm.html) without any transpiler or tool. This requires `node 12.x` with the flag set via `--experimental-modules` or `node 13.x` +
 
+## Example Usage
+
+```js
+    const main = async () => {
+        await hover.login('username','password')
+        console.log(await hover.getDomains())
+        console.log(await hover.getRecords('domain'))
+    }
+    main()
+```
