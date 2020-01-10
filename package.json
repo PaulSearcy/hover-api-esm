@@ -1,13 +1,11 @@
 {
   "name": "hover-api-esm",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Hover DNS API Client JS ESM",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "publish-npm": "npm login --registry=https://registry.npmjs.org && npm publish && npm logout",
-    "publish-github": "cp ./publish/.npmrc ./ && npm login --registry=https://npm.pkg.github.com && npm publish && npm logout && rm ./.npmrc",
-    "publish-all": "npm run publish-npm && npm run publish-github"
+    "test": "echo nothing"
   },
   "repository": "git://github.com/PaulSearcy/hover-api-esm",
   "keywords": [
